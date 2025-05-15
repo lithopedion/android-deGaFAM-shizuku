@@ -65,6 +65,6 @@ A Shizuku egy készüléken futtatható apk, nem kell sem kábel, sem számitóg
 
 ![shizuku2.jpg](shizuku2.jpg)
 
-A Shizuku ritkán jön jól, de akkor pótolhatatlan. Például amikor közeli hozzátartozónk BMX-el átugratna a telefon felett, ami videofelvételt készit a mutatványról és mindez félresikerül, mitől kezdve valami miatt csak tölt a telefon, adatkapcsolat nincs, de ezt is csak fél képernyőn élvezhetjük. Vagy, ha egy erdőben ülve debloath-olnánk valami furcsa és megmagyarázhatatlan okból. Esetleg úgy alakul, hogy újrahúzzuk a telefonunkat egy távoli ország repterén becsekkolás előtt.
+A Shizuku ritkán jön jól, de akkor pótolhatatlan. Például amikor közeli hozzátartozónk BMX-el átugratna a telefon felett, ami videofelvételt készit a mutatványról és mindez félresikerül, mitől kezdve valami miatt csak tölt a telefon, adatkapcsolat nincs, de ezt is csak fél képernyőn élvezhetjük. Vagy, ha egy erdőben ülve debloath-olnánk valami furcsa és megmagyarázhatatlan okból. Esetleg úgy alakul, hogy újrahúzzuk a telefonunkat egy távoli ország repterén.
 
 Mindkét művelet esetén a gyári visszaállitás maga a backup, tehát van visszaút, semmi sem vész el, csak háttérbe szorul.
