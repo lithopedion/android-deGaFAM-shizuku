@@ -49,7 +49,7 @@ Az „Universal Android Debloater” korábbi, bash script futtatását lehetőv
 
 ![uad2.png](uad2.png)
 
-Ezzel a metódussal sem törlünk, mint a Shizuku App esetében, nem babráljuk meg a Gyári Visszaállitás hátterében rejtőzködő Stock ROM image-et, csak képesek vagyunk uninstall-álni a system appokat, ha már nincs a készülékünkre CyanogenMod, LineageOS, CrDroid, GSI Treble, AOSP, Resurrection Remix, amikkel biztonságosan és szabadon használhatnánk a készüléket - kibővitve funkcionalitását és élettartamát.
+Ezzel a metódussal sem törlünk, mint a Shizuku App esetében, nem babráljuk meg a Gyári Visszaállitás hátterében rejtőzködő Stock ROM image-et, csak képesek vagyunk uninstall-álni a system appokat, ha már nincs a készülékünkre CyanogenMod, LineageOS, CrDroid, GSI Treble, AOSP, Resurrection Remix, amikkel biztonságosan és szabadon használhatnánk a telefont - kibővitve funkcionalitását és élettartamát.
 
 Érdemes közben nézni a készüléket, ahogyan egyre-másra tűnnek el a levakarhatatlannak tűnő makacs GFAM és brand applikációk ikonjai, melyek akkor is futnak és visszabeszélnek, ha letiltottuk, leállitottuk és megvontuk tőlük az internetkapcsolatot. Én mindig annyira izgulok ilyenkor, hogy elfelejtem videóra venni.
 
@@ -61,7 +61,7 @@ A Shizuku egy készüléken futtatható apk, nem kell sem kábel, sem számitóg
 
 - feltelepitjük a Shizuku-t és a Canta-t
 - inditáskor párositani kell Shizuku-ban, ez egyfajta engedélykérés a debug funkcióhoz, csak itt a levegőben úgymond és nem kábeles kapcsolattal
-- ezek után csak pipálgatunk a Canta-ban és nyomkodjuk a kuka-ikont
+- ezek után csak pipálgatunk Canta-ban és nyomkodjuk a kuka-ikont
 
 ![shizuku2.jpg](shizuku2.jpg)
 
