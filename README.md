@@ -3,47 +3,40 @@ Android debloath és deGoogle kábellel valamint kábel nélkül Linux alatt
 
 
 
-tl;dr
+## tl;dr:
+<br />
 
-
-Android debloath és deGoogle kábellel valamint kábel nélkül Linux alatt:
-
-
-I. Universal Android Debloater - régi
+**I. Universal Android Debloater - régi**
 - gitlab.com/W1nst0n/universal-android-debloater
 
 II. Universal Android Debloater GUI - új
 - github.com/0x192/universal-android-debloater
 
-III. Shizuku App és Canta modulja
+**III. Shizuku App és Canta modulja**
 - shizuku.rikka.app/download [moe.shizuku.privileged.api]
 - f-droid.org/hu/packages/org.samo_lego.canta
 
 IV. Systemless DeGoogler
-- kistesó, bash customize.sh
+- kistesó, bash customize.sh<br />
+<br />
 
-
-kell
+**kell**
 - motiváció, idetaláltál - ez pipa
 - némi gyakorlat, 10 elrontott telefonból 8 megjavitott, felújitott
 - sudo apt-get install adb fastboot heimdall-flash android-sdk-platform-tools
 - build number . . . . developer options
 - kábel és USB debugging vagy Wireless debugging, ez utóbbi elérése Android verzió függő
-- droid-ify, repótelepités felmerülhet
+- droid-ify, repótelepités felmerülhet<br />
+<br />
 
-
-nem kell
+**nem kell**
 - root, amúgy is kimenőben a divatból, a tűzfal megfelelő védelmet nyújthat az adatszivárgás ellen, a netbank meg..
 - Odin, SP Flash, Magisk, Qualcomm Flash, SN Writer, adb és fastboot kódrengeteg..
 - com.google.android.gm, com.google.android.gms, com.android.vending, Google/Facebook/Amazon/Microsoft.. [lol]
 
-<br />
-
 ![uad1.png](uad1.png)
 
-<br />
-
-I. van kábel, működik az adatkapcsolat
+## I. van kábel, működik az adatkapcsolat
 
 - Az „Universal Android Debloater” korábbi, bash script futtatását lehetővé tévő verziója szerintem nagyobb mozgásteret biztosit, mint az új GUI-el fejlesztett változat.
 
@@ -70,7 +63,7 @@ Ezzel a metódussal sem törlünk, mint a Shizuku App esetében, nem babráljuk 
 
 <br />
 
-III.  nincs kábeles adatkapcsolat, csak töltődik jó esetben, így navigációra, ébresztőórának, bármi másnak még pont jó lesz
+## III.  nincs kábeles adatkapcsolat, csak töltődik jó esetben, így navigációra, ébresztőórának, bármi másnak még pont jó lesz
 
 A Shizuku egy készüléken futtatható apk, nem kell sem kábel, sem számitógép hozzá.
 
