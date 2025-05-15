@@ -1,9 +1,12 @@
 # android-deGaFAM-shizuku
 Android debloath és deGoogle kábellel valamint kábel nélkül Linux alatt
 
+
 tl;dr
 
+
 Android debloath és deGoogle kábellel valamint kábel nélkül Linux alatt:
+
 
 I. Universal Android Debloater - régi
 - gitlab.com/W1nst0n/universal-android-debloater
@@ -18,6 +21,7 @@ III. Shizuku App és Canta modulja
 IV. Systemless DeGoogler
 - kistesó, bash customize.sh
 
+
 kell
 - motiváció, idetaláltál - ez pipa
 - némi gyakorlat, 10 elrontott telefonból 8 megjavitott, felújitott
@@ -26,18 +30,40 @@ kell
 - kábel és USB debugging vagy Wireless debugging, ez utóbbi elérése Android verzió függő
 - droid-ify, repótelepités felmerülhet
 
+
 nem kell
 - root, amúgy is kimenőben a divatból, a tűzfal megfelelő védelmet nyújthat az adatszivárgás ellen, a netbank meg..
-- com.google.android.gm, com.google.android.gms, com.android.vending..
+- Odin, SP Flash, Qualcomm Flash, SN Writer, adb és fastboot kódrengeteg..
+- com.google.android.gm, com.google.android.gms, com.android.vending.. [lol]
 
-I. Van kábel, működik az adatkapcsolat
+
+I. van kábel, működik az adatkapcsolat
 
 - Az „Universal Android Debloater” korábbi, bash script futtatását lehetővé tévő verziója szerintem nagyobb mozgásteret biztosit, mint az új GUI-el fejlesztett változat.
 
 - a telefon bekapcsolt és képernyőzár-ügyileg feloldott állapotban van
 - terminál inditása az UAD mappájából
+- engedélykérésre pacsi
 - bash debloat_script.sh
-- nem köszi, 3, 3
+- backup nem köszi, 3, 2 vagy 3 és utánunk az özönviz
+- x-el fejezzük be a folyamatot, a telefon újraindul
+
+Ezzel a metódussal sem törlünk, mint a Shizuku App esetében, nem babráljuk meg a Gyári Visszaállitás hátterében rejtőzködő Stock ROM image-et, csak képesek vagyunk uninstall-álni a system appokat, ha már nincs a készülékünkre CyanogenMod, LineageOS, CrDroid, GSI Treble, AOSP, Resurrection Remix, amikkel biztonságosan és szabadon használhatnánk a készüléket - kibővitve funkcionalitását és élettartamát.
+
+Érdemes közben nézni a készüléket, ahogyan egyre-másra tűnnek el a levakarhatatlannak tűnő GFAM és brand applikációk ikonjai, melyek akkor is futnak és visszabeszélnek, ha letiltottuk, leállitottuk és megvontuk tőlük az internetkapcsolatot. Én mindig annyira izgulok ilyenkor, hogy elfelejtem videóra venni.
+
+
+III.  nincs kábeles adatkapcsolat, csak töltődik jó esetben, így navigációra, ébresztőórának, bármi másnak még pont jó lesz
+
+A Shizuku egy készüléken futtatható apk, nem kell sem kábel, sem számitógép hozzá.
+
+- feltelepitjük a Shizuku-t és a Canta-t
+- inditáskor párositani kell Shizuku-ban, ez egyfajta engedélykérés a debug funkcióhoz, csak itt a levegőben úgymond és nem kábeles kapcsolattal
+- ezek után csak pipálgatunk a Canta-ban és nyomkodjuk a kuka-ikont
+
+A Shizuku ritkán jön jól, de akkor pótolhatatlan. Például amikor közeli hozzátartozónk BMX-el átugratna a telefon felett, ami videofelvételt készit a mutatványról és mindez félresikerül, mitől kezdve valami miatt csak tölt a telefon, adatkapcsolat nincs. Vagy, ha egy erdőben ülve debloath-olnánk valami furcsa és megmagyarázhatatlan okból. Esetleg úgy alakul, hogy újrahúzzuk a telefonunkat egy távoli ország repterén becsekkolás előtt.
+
+
 
 ..
 
